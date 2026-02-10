@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
-> **A mental health support platform that helps students track moods, journal emotions, and chat with an AI companion in a safe and private environment.**
+> *A mental health support platform that helps students track moods, journal emotions, and chat with an AI companion in a safe and private environment.*
 
 ---
 
@@ -19,7 +19,6 @@ This project aims to develop a **mental health support platform** that allows us
 
 The system is designed with **privacy, simplicity, and emotional safety** in mind, making it suitable for student well-being support.
 
----
 
 **Key Features:**
 *   **Mood Tracking:** Users can log their daily mood with emojis or text.
@@ -28,7 +27,6 @@ The system is designed with **privacy, simplicity, and emotional safety** in min
 *   **Resource Access:** Provides access to mental health resources and helplines.
 *   **Secure Auth:** JWT-based authentication for user privacy.
 
----
 
 ## 2. System Architecture
 
@@ -57,7 +55,6 @@ The system follows a standard Client-Server architecture.
     *   **Mood:** Backend analyzes sentiment (NLP) and stores data in DB.
 4.  **Response:** Backend sends data back to Frontend for display (response message, updated charts).
 
----
 
 ## 3. Directory Structure
 
