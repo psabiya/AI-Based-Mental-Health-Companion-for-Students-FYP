@@ -1,7 +1,25 @@
-# Project Documentation: Mental Health Chatbot & mood Tracker
+# Mental Health Chatbot & Mood Tracker
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![React](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-61dafb)
+![Flask](https://img.shields.io/badge/Backend-Flask-black)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+> **A mental health support platform that helps students track moods, journal emotions, and chat with an AI companion in a safe and private environment.**
+
+---
 
 ## 1. Introduction
-This project aims to develop a mental health support platform that allows users to track their mood, log entries, and converse with an AI chatbot for emotional support. The platform is designed with privacy and user experience in mind, ensuring a safe and comforting environment.
+
+This project aims to develop a **mental health support platform** that allows users to:
+- track their daily mood,
+- log emotional reflections,
+- and converse with an AI chatbot for supportive, non-judgmental interaction.
+
+The system is designed with **privacy, simplicity, and emotional safety** in mind, making it suitable for student well-being support.
+
+---
 
 **Key Features:**
 *   **Mood Tracking:** Users can log their daily mood with emojis or text.
@@ -9,6 +27,8 @@ This project aims to develop a mental health support platform that allows users 
 *   **Dashboard:** Visualizes mood trends over time using charts.
 *   **Resource Access:** Provides access to mental health resources and helplines.
 *   **Secure Auth:** JWT-based authentication for user privacy.
+
+---
 
 ## 2. System Architecture
 
@@ -36,6 +56,8 @@ The system follows a standard Client-Server architecture.
     *   **Chat:** Backend sends prompt to an AI API and returns response.
     *   **Mood:** Backend analyzes sentiment (NLP) and stores data in DB.
 4.  **Response:** Backend sends data back to Frontend for display (response message, updated charts).
+
+---
 
 ## 3. Directory Structure
 
